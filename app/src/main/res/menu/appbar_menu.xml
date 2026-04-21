@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/logout_action"
+        android:title="@string/logout"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/map_action"
+        android:icon="@drawable/arcticons__petal_maps"
+        android:title="@string/maps"
+        app:showAsAction="ifRoom" />
+
+</menu>
